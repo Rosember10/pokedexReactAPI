@@ -1,0 +1,156 @@
+
+.pokedex{
+    display: flex;
+    flex-direction: row;
+    background-color: #DC0A2D;
+    width: 600px;
+    height: auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.card {
+    width: 290px;
+    height: 474px;
+    background: #DC0A2D;
+   
+    border-radius: 6px;
+  }
+  
+  .card_led 
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+  .red{
+    padding: 6px;
+    margin: 6px;
+    background-color: red;
+    border-radius: 50px;
+  }
+  .yellow{
+    padding: 6px;
+    margin: 6px;
+    background-color: rgb(255, 204, 0);
+    border-radius: 50px;
+  }
+  .green{
+    padding: 6px;
+    margin: 6px;
+    background-color: rgb(0, 255, 34);
+    border-radius: 50px;
+  }
+
+
+
+  .card-image {
+    background-color:#1f1f29;
+    width: 100%;
+    height: 60%;
+    border-radius: 6px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-image img
+  {
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: .8rem;
+    
+    background-color: #39B47D;
+    color: #1f1f29;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    margin-top: .5rem;
+    border-radius: .3rem;
+    font-family: 'Press Start 2P'
+    
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+
+  
+
+/* CSS */
+.button-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  width: 15vw;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  
+}
+
+
+
+.info_pokemon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    width: 50%;
+    height: 50%;
+    font-family: 'Press Start 2P';
+    font-size: .8rem;
+    gap: 1rem;
+
+}
+.info_pokemon_data, .info_pokemon_stats
+{
+    background-color: #1f1f29;
+    color: #DFDEDF;
+    padding: .4rem;
+}
+.info_pokemon_data h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
