@@ -36,7 +36,7 @@ export default class InfoPkm extends React.Component {
                 speed: data.stats[5].base_stat,
                 type: data.types[0].type.name,
                 abality_1: data.abilities[0].ability.name,
-                abality_2: data.abilities[1].ability.name === null ? "Not available":data.abilities[1].ability.name,
+                abality_2: data.abilities[1] === undefined ? "Not available":data.abilities[1].ability.name,
                 height: (data.height / 10).toFixed(1),
                 weight: (data.weight / 10).toFixed(1),
             },
