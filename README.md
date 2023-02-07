@@ -12,7 +12,9 @@
 Petite application qui ressemble au pokedex des pokémons 
 
 En utilisant le framework reactjs, nous faisons une requête à l'api Pokemon et affichons les Pokemon les uns après les autres.
+deuxième fonctionnalité, affichage d'une liste de pokémons 
 
 ![Pokeapi](/public/pokeapi.png)
+![List](/public/list.png)
 
 ###### Rosemberg López 
