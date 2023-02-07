@@ -1,0 +1,60 @@
+.list_pkm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    width: 800px; */
+    grid-gap: 1rem;
+    margin: 1rem auto;
+    color: white;
+    font-family: 'Press Start 2P';
+}
+
+.list_pkm img {
+    max-width: 100%;
+}
+
+.one_pkm {
+    background-color: #ff793b;
+    background-image: linear-gradient(147deg, #ff793b 0%, #FF2525 74%);
+    font-size: .8rem;
+    text-transform: capitalize;
+    /* width: 25%;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center; */
+    border: 1px solid #999;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border-radius: 3px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+}
+
+.one_pkm_img {
+    background-color: #1f1f29;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.one_pkm img {
+
+}
+
+.pkm_type {
+    
+
+    padding: .3rem;
+}
+
+.pkm_type p {
+    padding: .5rem;
+    color: white;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+}

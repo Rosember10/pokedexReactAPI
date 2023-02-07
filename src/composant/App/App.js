@@ -1,4 +1,5 @@
 import InfoPkm from "../InfoPkm/InfoPkm";
+import ListPkm from "../ListPkm/ListPkm";
 import "./App.css";
 import React from "react";
 
@@ -33,14 +34,7 @@ export default class App extends React.Component {
             <section className="App">
                 <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1280px-International_Pokémon_logo.svg.png"/>
                 <InfoPkm compteur={this.state.compteur} augmenteCompte={this.augmenteCompte} diminueCompte={this.diminueCompte}   />
-{/* 
-                <button onClick={this.diminueCompte}>
-                    precedent ({this.state.compteur})
-                </button>
-
-                <button onClick={this.augmenteCompte}>
-                    suivent ({this.state.compteur})
-                </button> */}
+                <ListPkm/>
 
             </section>
         );
