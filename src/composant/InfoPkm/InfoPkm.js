@@ -59,6 +59,7 @@ export default class InfoPkm extends React.Component {
                     </div>
                     <div className="card-image">
                         <img src={oPokemon.imgFront} alt="My Image" />
+                       
                     </div>
                     <div className="category"> {oPokemon.name}</div>
                     <div className="heading">
