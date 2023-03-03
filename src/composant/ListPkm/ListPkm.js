@@ -10,7 +10,7 @@ export default class ListPkm extends React.Component {
 
     async componentDidMount() {
         let response = await fetch(
-            "https://pokeapi.co/api/v2/pokemon?limit=251"
+            "https://pokeapi.co/api/v2/pokemon?limit=150"
         );
         let data = await response.json();
 

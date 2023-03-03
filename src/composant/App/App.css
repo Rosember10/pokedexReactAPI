@@ -39,3 +39,11 @@ body {
   text-transform: uppercase;
 }
 
+.active {
+  background-color:#DC0A2D;
+}
+
+nav a:hover{
+  color: #FFCC02;
+  transition-duration: .6s;
+}

@@ -1,10 +1,10 @@
+import "./App.css";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { Link , NavLink} from 'react-router-dom';
 import InfoPkm from "../InfoPkm/InfoPkm";
 import ListPkm from "../ListPkm/ListPkm";
-import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
-import { Link } from 'react-router-dom';
-import "./App.css";
-
 import React from "react";
+import Accueil from "../Accueil/Accueil";
 
 export default class App extends React.Component {
     constructor() {
@@ -35,20 +35,22 @@ export default class App extends React.Component {
     render() {
         return (
             <section className="App">
-                    <img  className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1280px-International_Pokémon_logo.svg.png" alt="logo"/>
                 <Router id="App">
+                    <Link to="/">
+                    <img  className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1280px-International_Pokémon_logo.svg.png" alt="logo"/>
+                    </Link>
                     <nav className="nav_pkm">
-                    <Link className="button-12" to="/listpkm" > pkm liste</Link>
-                    <Link className="button-12" to="/pokedex"  > pokedex</Link>
+                    <NavLink className="button-12" to="/listpkm" > Pokémon liste</NavLink>
+                    <NavLink className="button-12" to="/pokedex"  > pokedex</NavLink>
                     </nav>
                     <Routes>
-                        <Route path="/"  />
+                        <Route path="/" element={ <Accueil/>} />
                         <Route path="/pokedex" element={ <InfoPkm  compteur={this.state.compteur} augmenteCompte={this.augmenteCompte} diminueCompte={this.diminueCompte}/>}  />
                         <Route path="/listpkm" element={ <ListPkm/>}/>
                     </Routes>
-                   
-                
                 </Router>
+                
+              
             </section>
         );
     }
