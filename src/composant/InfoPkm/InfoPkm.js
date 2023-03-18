@@ -44,7 +44,7 @@ export default class InfoPkm extends React.Component {
     }
 
     render() {
-        console.log(this.state.pokemon.weight);
+       
         let oPokemon = this.state.pokemon;
 
         //console.log(oPokemon);
@@ -58,7 +58,7 @@ export default class InfoPkm extends React.Component {
                         <div className="green"></div>
                     </div>
                     <div className="card-image">
-                        <img src={oPokemon.imgFront} alt="My Image" />
+                        <img src={oPokemon.imgFront} alt="pokemon" />
                        
                     </div>
                     <div className="category"> {oPokemon.name}</div>
