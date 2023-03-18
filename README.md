@@ -1,5 +1,5 @@
 
-# Pokédex avec React.js et API pokemon
+# Pokédex with React.js and API pokemon
 
 ![Développé avec:](https://img.shields.io/badge/D%C3%A9velopp%C3%A9%20avec:-green?style=flat-square)
 
