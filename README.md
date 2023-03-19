@@ -23,4 +23,3 @@ third functionality, search for Pokemon by number and name
 ![pokedex](/public/pokedex.png)
 
 
-###### Rosemberg López 

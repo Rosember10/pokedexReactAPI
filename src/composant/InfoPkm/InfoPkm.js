@@ -4,7 +4,6 @@ import React from "react";
 export default class InfoPkm extends React.Component {
     constructor(props) {
         super(props);
-        console.log(props);
         this.state = { pokemon: [] };
     }
 
@@ -46,8 +45,6 @@ export default class InfoPkm extends React.Component {
     render() {
        
         let oPokemon = this.state.pokemon;
-
-        //console.log(oPokemon);
 
         return (
             <div className="pokedex">
