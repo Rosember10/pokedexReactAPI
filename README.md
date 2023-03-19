@@ -15,6 +15,8 @@ Using the reactjs framework, we make a request to the Pokemon api and display th
 second functionality, display a list of pokemons
 third functionality, search for Pokemon by number and name
 
+ 🌐 [Demo App ](https://rosember10.github.io/pokedexReactAPI/)
+
 ![home](/public/home.png)
 ![search](/public/search.png)
 ![List](/public/list.png)
