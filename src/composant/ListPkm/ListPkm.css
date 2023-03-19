@@ -49,7 +49,7 @@
 
 
 .one_pkm img {
-
+    width: 100%;
 }
 
 .pkm_type {
@@ -64,3 +64,11 @@
     background-color: #FF9A8B;
     background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
 }
+
+@media  screen and (max-width: 700px) {
+    .list_pkm,.one_pkm {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+  }

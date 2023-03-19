@@ -24,7 +24,7 @@ export default function Search() {
 
     async function searchPkm() {
         console.log(search);
-       if(search.length==0){
+       if(search.length===0){
         setpokemonInfo(error404)
        }
         let pkmId;
@@ -68,7 +68,7 @@ export default function Search() {
 
             let newResponse;
             try {
-                newResponse = await fetch(url + search);
+                newResponse = await fetch(url + newSearch);
                 if (!newResponse.ok) {
                     setpokemonInfo(error404);
                 }

@@ -95,10 +95,9 @@ export default class ListPkm extends React.Component {
                         <strong>search </strong>
                     </button>
                 </section>
-                <section>
+           
                     <section className="list_pkm">{oPokemon}</section>
-
-                </section>
+           
             </div>
         );
     }

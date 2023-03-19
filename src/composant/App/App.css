@@ -47,7 +47,7 @@ nav a:hover{
   transition-duration: .6s;
 }
 
-@media only screen and (max-width: 700px) {
+@media  screen and (max-width: 700px) {
   .nav_pkm a {
     font-size: .6rem;
   }
